@@ -15,18 +15,21 @@ $(document).ready(function(){
       $(".cardidea1").toggleClass("collapse");
       $(".cardidea2").addClass("collapse");
       $(".cardidea3").addClass("collapse");
+      $(".alert").hide();
     });
 
     $(".idea2").click(function(){
       $(".cardidea2").toggleClass("collapse");
       $(".cardidea1").addClass("collapse");
       $(".cardidea3").addClass("collapse");
+      $(".alert").hide();
     });
 
     $(".idea3").click(function(){
       $(".cardidea3").toggleClass("collapse");
       $(".cardidea2").addClass("collapse");
       $(".cardidea1").addClass("collapse");
+      $(".alert").hide();
     });
     
 
